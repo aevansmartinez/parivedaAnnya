@@ -1,0 +1,15 @@
+/Users/annyae/Documents/MIS221/parivedaAnnya/bin/Debug/net7.0/parivedaAnnya
+/Users/annyae/Documents/MIS221/parivedaAnnya/bin/Debug/net7.0/parivedaAnnya.deps.json
+/Users/annyae/Documents/MIS221/parivedaAnnya/bin/Debug/net7.0/parivedaAnnya.runtimeconfig.json
+/Users/annyae/Documents/MIS221/parivedaAnnya/bin/Debug/net7.0/parivedaAnnya.dll
+/Users/annyae/Documents/MIS221/parivedaAnnya/bin/Debug/net7.0/parivedaAnnya.pdb
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.csproj.AssemblyReference.cache
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.AssemblyInfoInputs.cache
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.AssemblyInfo.cs
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.csproj.CoreCompileInputs.cache
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.dll
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/refint/parivedaAnnya.dll
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.pdb
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/parivedaAnnya.genruntimeconfig.cache
+/Users/annyae/Documents/MIS221/parivedaAnnya/obj/Debug/net7.0/ref/parivedaAnnya.dll

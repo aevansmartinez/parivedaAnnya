@@ -1,0 +1,40 @@
+INSTRUCTIONS
+______________________________________
+
+GUESS TEN: 
+  The computer will draw cards from the deck randomly and show you one at a time.
+  You must then guess if the next card will be over or under that amount
+  Each time you guess correctly you move on to the next card. 
+  If you guess incorrectly you lose.
+  If you reach 10 correct guesses consecutively you win.
+    
+  *important* ace is the /lowest/ card value in this game*
+
+ scoring
+  if you guess correctly 10 times you triple the credits you bet
+  if you guess correctly 7-9 times you double the credits you bet
+  if you guess correctly 5-6 times you break even
+  if you guess less than 5 correct you lose the credits you bet
+______________________________________
+
+LUCKY DICE:
+  You and the computer each roll 6 die and sum the total values
+  the player with the higher value wins the round
+  the first player to win 3 rounds wins the game
+    
+ scoring
+  if you win you double the credits you bet
+  if you lose you lose the credits you bet
+______________________________________
+
+ROCK, PAPER, SCISSORS:
+  if you dont know how to play this game i cant help you.
+
+ scoring
+  if you win you double the credits you bet
+  if you lose you lose the credits you bet
+______________________________________
+
+SLOTS:
+  
+

@@ -1,0 +1,7 @@
+Enter 1 to play Guess Ten
+Enter 2 to play Lucky Dice
+Enter 3 to play Rock, Paper, Scissors
+Enter 4 to play Slots
+Enter 5 to see game descriptions
+Enter 6 to see scoreboard
+Enter 7 to exit
