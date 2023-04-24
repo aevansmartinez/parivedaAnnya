@@ -14,9 +14,9 @@ namespace parivedaAnnya.Games
             System.Console.Write("Press enter");
             Console.ReadKey();
             
-            int num1 = random.Next(1, 10);
-            int num2 = random.Next(1, 10);
-            int num3 = random.Next(1, 10);
+            int num1 = random.Next(4, 10);
+            int num2 = random.Next(4, 10);
+            int num3 = random.Next(4, 10);
             
             System.Console.WriteLine($"[{num1}] [{num2}] [{num3}]");
             
@@ -26,15 +26,15 @@ namespace parivedaAnnya.Games
             }
             else{
                 Console.WriteLine("Sorry, no win this time.");
-                winnings = 0;
+                winnings = -10;
             }    
         }
-        private void DetermineWinnings(int reel){
-            if (reel == 7) winnings = 400;
-            else if (reel == 8) winnings = 350;
-            else if (reel == 9) winnings = 325;
-            else if (reel == 10) winnings = 300;
-            else winnings = 250;
+        private void DetermineWinnings(int num){
+            if (num == 7) winnings = 200;
+            else if (num == 8) winnings = 150;
+            else if (num == 9) winnings = 125;
+            else if (num == 10) winnings = 100;
+            else winnings = 75;
         }
         public int CreditChange(){
             return winnings;

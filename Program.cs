@@ -5,7 +5,7 @@ int userChoice = GetUserChoice();
 int credits = 50;
 bool gameOver = false;
 
-while (userChoice != 7){   
+while (userChoice != 8){   
     Route(userChoice, ref credits);
     gameOver= IsGameOver(credits);
     
@@ -70,10 +70,8 @@ static bool IsGameOver(int credits){
 }
 
 static bool IsValidChoice(string userChoice){
-    if (userChoice == "1" || userChoice == "2" || userChoice == "3" || userChoice == "4"){
-        return true;
-    }
-    else if (userChoice =="5" || userChoice == "6" || userChoice == "7") return true;
+    if (userChoice == "1" || userChoice == "2" || userChoice == "3" || userChoice == "4") return true;
+    else if (userChoice =="5" || userChoice == "6" || userChoice == "7" || userChoice == "8") return true;
     else return false;
 }
 
@@ -99,6 +97,10 @@ static void Route(int userChoice, ref int credits){
         else System.Console.WriteLine("You do not have enough credits to play Slots. Please select another option");  
     }
     else if (userChoice == 5){
+        if (credits >= 10) PlayGridSlots(ref credits);
+        else System.Console.WriteLine("You do not have enough credits to play Slots. Please select another option");  
+    }
+    else if (userChoice == 6){
         DisplayInstructions();
     }
     else{
@@ -167,14 +169,29 @@ static void PlaySlots(ref int credits){
     slotsGame.SetCredits(credits);
     slotsGame.RunSLots();
 
-    int creditChange = slotsGame.CreditChange();
-    credits += creditChange;
+    credits += slotsGame.CreditChange();
 
     if (credits >= 10){
         bool again = PlayAgain(credits);
         if (again) PlaySlots(ref credits);
     }
     else System.Console.WriteLine("You do not have enough credits to play this game again. Routing to main menu");
+}
+
+static void PlayGridSlots(ref int credits){
+    Console.Clear();
+
+    GridSlots slotsGame = new GridSlots();
+    slotsGame.SetCredits(credits);
+    slotsGame.RunGridSLots();
+
+    credits += slotsGame.CreditChange();
+    if (credits >= 10){
+        bool again = PlayAgain(credits);
+        if (again) PlaySlots(ref credits);
+    }
+    else System.Console.WriteLine("You do not have enough credits to play this game again. Routing to main menu");
+
 }
 
 static bool PlayAgain(int credits){
