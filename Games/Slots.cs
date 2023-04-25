@@ -14,9 +14,9 @@ namespace parivedaAnnya.Games
             System.Console.Write("Press enter");
             Console.ReadKey();
             
-            int num1 = random.Next(4, 10);
-            int num2 = random.Next(4, 10);
-            int num3 = random.Next(4, 10);
+            int num1 = random.Next(7, 10);
+            int num2 = random.Next(7, 10);
+            int num3 = random.Next(7, 10);
             
             System.Console.WriteLine($"[{num1}] [{num2}] [{num3}]");
             
@@ -33,8 +33,7 @@ namespace parivedaAnnya.Games
             if (num == 7) winnings = 200;
             else if (num == 8) winnings = 150;
             else if (num == 9) winnings = 125;
-            else if (num == 10) winnings = 100;
-            else winnings = 75;
+            else winnings = 100;
         }
         public int CreditChange(){
             return winnings;

@@ -39,5 +39,15 @@ SLOTS:
   You're classic casino slots game.
 
  scoring
-  cost is 10 credits to play with a chance to win up to 200 credits from a single spin
+  cost is 10 credits to play with a chance to win up to 
+  200 credits from a single spin
 
+______________________________________
+
+GRID SLOTS:
+  Casino slots, but in a grid verson. If any numbers match across 
+  a row, down a column, or along the diagonals, you win!
+
+ scoring
+  cost is 10 credits to play. The winnnings are determined by 
+  what number shows up 3 in a row.

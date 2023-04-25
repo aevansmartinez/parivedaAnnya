@@ -2,7 +2,7 @@
 
 //DisplayInstructions();
 Console.Clear();
-System.Console.WriteLine("Welcome to mini games! Please select an option from below.");
+System.Console.WriteLine("Welcome to mini games! Please select an option from below.\n");
 int userChoice = GetUserChoice();
 int credits = 50;
 bool gameOver = false;
@@ -183,14 +183,14 @@ static void PlaySlots(ref int credits){
 static void PlayGridSlots(ref int credits){
     Console.Clear();
 
-    GridSlots slotsGame = new GridSlots();
-    slotsGame.SetCredits(credits);
-    slotsGame.RunGridSLots();
+    GridSlots gSlotsGame = new GridSlots();
+    gSlotsGame.SetCredits(credits);
+    gSlotsGame.RunGridSLots();
 
-    credits += slotsGame.CreditChange();
+    credits += gSlotsGame.CreditChange();;
     if (credits >= 10){
         bool again = PlayAgain(credits);
-        if (again) PlaySlots(ref credits);
+        if (again) PlayGridSlots(ref credits);
     }
     else System.Console.WriteLine("You do not have enough credits to play this game again. Routing to main menu");
 

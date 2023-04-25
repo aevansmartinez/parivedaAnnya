@@ -27,24 +27,24 @@ namespace parivedaAnnya.Games
         }
         private void CheckIfWon(){
             if (nums[0,0] == nums[0,1] && nums[0,1] == nums[0,2]){
-                winnings = nums[0,0] * 16;
+                winnings = nums[0,0] * 25;
                 Console.WriteLine($"Lucky duck! You won {winnings} credits.");
             }
             else if (nums[1,0] == nums[1,1] && nums[1,1] == nums[1,2]){
-                winnings = nums[1,0] * 16;
+                winnings = nums[1,0] * 25;
                 Console.WriteLine($"Lucky duck! You won {winnings} credits.");
             }
             else if (nums[2,0] == nums[2,1] && nums[2,1] == nums[2,2]){
-                winnings = nums[2,0] * 16;
+                winnings = nums[2,0] * 25;
                 Console.WriteLine($"Lucky duck! You won {winnings} credits.");
             }
             else if (nums[0,0] == nums[1,1] && nums[1,1] == nums[2,2]){
-                winnings = nums[0,0] * 16;
+                winnings = nums[0,0] * 25;
                 Console.WriteLine($"Lucky duck! You won {winnings} credits.");
             }
             else if (nums[2,0] == nums[1,1] && nums[1,1] == nums[0,2]){
-                winnings = nums[2,0] * 16;
-                Console.WriteLine($"Luck duck! You won {winnings} credits.");
+                winnings = nums[2,0] * 25;
+                Console.WriteLine($"Lucky duck! You won {winnings} credits.");
             }
             else{
                 Console.WriteLine("Sorry, you didn't win.");
