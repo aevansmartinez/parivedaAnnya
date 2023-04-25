@@ -1,4 +1,4 @@
-INSTRUCTIONS
+GAME DESCRIPTIONS
 ______________________________________
 
 GUESS TEN: 
@@ -28,7 +28,7 @@ LUCKY DICE:
 ______________________________________
 
 ROCK, PAPER, SCISSORS:
-  if you dont know how to play this game i cant help you.
+  if you dont know how to play this game I cant help you.
 
  scoring
   if you win you double the credits you bet
@@ -36,5 +36,8 @@ ROCK, PAPER, SCISSORS:
 ______________________________________
 
 SLOTS:
-  
+  You're classic casino slots game.
+
+ scoring
+  cost is 10 credits to play with a chance to win up to 200 credits from a single spin
 

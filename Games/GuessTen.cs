@@ -32,7 +32,7 @@ namespace parivedaAnnya.Games
             numCorrect = HigherOrLower();
         }
         public void FillDeck(){ 
-            string[] suits = {"hearts", "diamonds", "club", "spades"};
+            string[] suits = {"hearts", "diamonds", "clubs", "spades"};
             string[] values = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};      
             int k = 0;
             for (int i = 0; i < 13; i++){

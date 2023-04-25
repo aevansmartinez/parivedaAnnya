@@ -1,10 +1,10 @@
-MINI GAMES
+~~~~~~~~~~MINI GAMES~~~~~~~~~~
 Enter 1 to play Guess Ten
 Enter 2 to play Lucky Dice
 Enter 3 to play Rock, Paper, Scissors
 Enter 4 to play Slots
 Enter 5 to play Slots, Grid!
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Enter 6 to See Game Descriptions
-Enter 7 to see scoreboard
-Enter 8 to exit
+Enter 7 to See Scoreboard
+Enter 8 to Exit

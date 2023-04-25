@@ -1,6 +1,8 @@
 ﻿using parivedaAnnya.Games;
 
-DisplayInstructions();
+//DisplayInstructions();
+Console.Clear();
+System.Console.WriteLine("Welcome to mini games! Please select an option from below.");
 int userChoice = GetUserChoice();
 int credits = 50;
 bool gameOver = false;
